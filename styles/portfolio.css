@@ -1,7 +1,11 @@
 body{font-family: 'Open Sans', sans-serif;}
+.pp-pic{
+width: 500px;
+}
 
-
-
+#id{
+    align-items: center;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -37,4 +41,18 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+.header{
+    background-color:  #FFF8F3;
+}
+.banner{
+    padding: 300px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-hi{
+    text-decoration:  #474747;
+}
+.banner-nm{
+    font-size: 700;
 }
